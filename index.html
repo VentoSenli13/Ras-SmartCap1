@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RΔS Smartcap - Wearable AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-video" aria-hidden="true">
+      <video autoplay muted loop playsinline preload="auto" poster="assets/tech-poster.jpg">
+        <source src="assets/tech-loop.mp4" type="video/mp4" />
+        <source src="assets/tech-loop.webm" type="video/webm" />
+      </video>
+      <div class="video-overlay"></div>
+      <div class="ambient-grid"></div>
+    </div>
+
+    <div class="page">
+      <header class="site-header">
+        <div class="logo">RΔS Smartcap</div>
+        <nav class="site-nav">
+          <a href="#features" data-i18n="nav.features">Features</a>
+          <a href="#how" data-i18n="nav.how">How It Works</a>
+          <a href="#use-cases" data-i18n="nav.use">Use Cases</a>
+          <a href="#stack" data-i18n="nav.tech">Technology</a>
+          <a href="#readiness" data-i18n="nav.readiness">Readiness</a>
+          <a href="#roadmap" data-i18n="nav.roadmap">Roadmap</a>
+          <a href="#partners" data-i18n="nav.partners">Partners</a>
+          <a href="#prototype" data-i18n="nav.prototype">Prototype</a>
+          <a href="#vision" data-i18n="nav.vision">Vision</a>
+        </nav>
+        <div class="lang-switcher" role="group" aria-label="Language selection">
+          <button class="lang active" data-lang="en">English</button>
+          <button class="lang" data-lang="de">Deutsch</button>
+          <button class="lang" data-lang="tr">Türkçe</button>
+          <button class="lang" data-lang="fr">Français</button>
+          <button class="lang" data-lang="it">Italiano</button>
+          <button class="lang" data-lang="nl">Nederlands</button>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" id="top">
+          <div class="hero-content">
+            <p class="eyebrow" data-i18n="hero.eyebrow">AI-POWERED WEARABLE INTELLIGENCE</p>
+            <h1 data-i18n="hero.title">The Future of Wearable AI</h1>
+            <h2 data-i18n="hero.subtitle">Meet RΔS Smartcap</h2>
+            <p class="hero-description" data-i18n="hero.desc">
+              RΔS Smartcap blends camera vision, spatial audio, and cloud AI into a single
+              premium wearable that augments daily life with real-time context and guidance.
+            </p>
+            <p class="hero-tagline" data-i18n="hero.tagline">
+              Not just an technology, it is wearable technology
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#prototype" data-i18n="hero.cta">Explore the Future</a>
+              <a class="btn ghost" href="#vision" data-i18n="hero.ctaAlt">Our Vision</a>
+            </div>
+            <div class="hero-metrics">
+              <div class="metric">
+                <span class="metric-value">360°</span>
+                <span class="metric-label" data-i18n="hero.metric1">Context Awareness</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">0.6s</span>
+                <span class="metric-label" data-i18n="hero.metric2">AI Response Time</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">24/7</span>
+                <span class="metric-label" data-i18n="hero.metric3">Always-On Assist</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-panel">
+            <div class="panel-glow"></div>
+            <div class="panel-card">
+              <p class="panel-title">RΔS Smartcap</p>
+              <p class="panel-subtitle" data-i18n="panel.subtitle">Prototype Intelligence Layer</p>
+              <div class="panel-specs">
+                <div>
+                  <span data-i18n="panel.spec.visionLabel">Vision</span>
+                  <strong data-i18n="panel.spec.visionValue">Real-time capture</strong>
+                </div>
+                <div>
+                  <span data-i18n="panel.spec.audioLabel">Audio</span>
+                  <strong data-i18n="panel.spec.audioValue">Directional feedback</strong>
+                </div>
+                <div>
+                  <span data-i18n="panel.spec.connLabel">Connectivity</span>
+                  <strong data-i18n="panel.spec.connValue">Bluetooth + Cloud AI</strong>
+                </div>
+              </div>
+              <div class="panel-footer" data-i18n="panel.footer">
+                Engineered for seamless daily augmentation.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="signal-strip" aria-label="Signal highlights">
+          <div class="signal-track">
+            <span data-i18n="strip.item1">Ambient vision intelligence</span>
+            <span data-i18n="strip.item2">Real-time scene understanding</span>
+            <span data-i18n="strip.item3">Haptic navigation cues</span>
+            <span data-i18n="strip.item4">Voice-first control</span>
+            <span data-i18n="strip.item5">Assistive accessibility layer</span>
+            <span data-i18n="strip.item6">Secure cloud reasoning</span>
+            <span data-i18n="strip.item7">Hands-free translation</span>
+            <span data-i18n="strip.item8">Bluetooth device mesh</span>
+            <span data-i18n="strip.item1">Ambient vision intelligence</span>
+            <span data-i18n="strip.item2">Real-time scene understanding</span>
+            <span data-i18n="strip.item3">Haptic navigation cues</span>
+            <span data-i18n="strip.item4">Voice-first control</span>
+            <span data-i18n="strip.item5">Assistive accessibility layer</span>
+            <span data-i18n="strip.item6">Secure cloud reasoning</span>
+            <span data-i18n="strip.item7">Hands-free translation</span>
+            <span data-i18n="strip.item8">Bluetooth device mesh</span>
+          </div>
+        </div>
+
+        <section class="section reveal" id="features">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="features.eyebrow">FEATURES</p>
+            <h3 data-i18n="features.title">Designed for intelligent living</h3>
+            <p data-i18n="features.desc">
+              Every component is purpose-built to deliver ambient intelligence with zero friction.
+            </p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="icon" aria-hidden="true">
+                <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="16" cy="16" r="6" />
+                  <circle cx="6" cy="16" r="2" />
+                  <circle cx="26" cy="16" r="2" />
+                  <circle cx="16" cy="6" r="2" />
+                  <circle cx="16" cy="26" r="2" />
+                  <line x1="8" y1="16" x2="10" y2="16" />
+                  <line x1="22" y1="16" x2="24" y2="16" />
+                  <line x1="16" y1="8" x2="16" y2="10" />
+                  <line x1="16" y1="22" x2="16" y2="24" />
+                </svg>
+              </div>
+              <h4 data-i18n="feature1.title">AI-powered assistant</h4>
+              <p data-i18n="feature1.desc">Context-aware support that adapts to your day in real time.</p>
+              <span class="feature-status" data-i18n="feature.status">Available in prototype</span>
+            </article>
+            <article class="feature-card">
+              <div class="icon" aria-hidden="true">
+                <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="5" y="10" width="22" height="14" rx="3" />
+                  <circle cx="16" cy="17" r="4" />
+                  <rect x="9" y="7" width="6" height="4" rx="1.5" />
+                </svg>
+              </div>
+              <h4 data-i18n="feature2.title">Camera for real-time analysis</h4>
+              <p data-i18n="feature2.desc">Scene understanding with on-device capture and cloud vision.</p>
+              <span class="feature-status" data-i18n="feature.status">Available in prototype</span>
+            </article>
+            <article class="feature-card">
+              <div class="icon" aria-hidden="true">
+                <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="12" y="6" width="8" height="12" rx="4" />
+                  <path d="M8 14c0 4.4 3.6 8 8 8s8-3.6 8-8" />
+                  <line x1="16" y1="22" x2="16" y2="26" />
+                  <line x1="12" y1="26" x2="20" y2="26" />
+                </svg>
+              </div>
+              <h4 data-i18n="feature3.title">Voice interaction</h4>
+              <p data-i18n="feature3.desc">Hands-free control through an always-ready microphone array.</p>
+              <span class="feature-status" data-i18n="feature.status">Available in prototype</span>
+            </article>
+            <article class="feature-card">
+              <div class="icon" aria-hidden="true">
+                <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="14" y1="6" x2="14" y2="30" />
+                  <polyline points="14 6 22 12 14 18" />
+                  <polyline points="14 18 22 24 14 30" />
+                </svg>
+              </div>
+              <h4 data-i18n="feature4.title">Bluetooth connectivity</h4>
+              <p data-i18n="feature4.desc">Seamless pairing with phones, earbuds, and connected devices.</p>
+              <span class="feature-status" data-i18n="feature.status">Available in prototype</span>
+            </article>
+            <article class="feature-card">
+              <div class="icon" aria-hidden="true">
+                <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="16" cy="16" r="4" />
+                  <path d="M6 11c-3 3-3 7 0 10" />
+                  <path d="M26 11c3 3 3 7 0 10" />
+                  <path d="M10 13c-1.5 2-1.5 4 0 6" />
+                  <path d="M22 13c1.5 2 1.5 4 0 6" />
+                </svg>
+              </div>
+              <h4 data-i18n="feature5.title">Accessibility for visually impaired</h4>
+              <p data-i18n="feature5.desc">Vibration feedback delivers discreet, directional guidance.</p>
+              <span class="feature-status" data-i18n="feature.status">Available in prototype</span>
+            </article>
+          </div>
+          <p class="availability-note" data-i18n="features.note">
+            All listed features are available in current prototype builds.
+          </p>
+        </section>
+
+        <section class="section reveal" id="how">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="how.eyebrow">HOW IT WORKS</p>
+            <h3 data-i18n="how.title">From capture to response in seconds</h3>
+          </div>
+          <div class="steps">
+            <div class="step">
+              <span class="step-number">01</span>
+              <h4 data-i18n="how.step1.title">Capture</h4>
+              <p data-i18n="how.step1.desc">Camera & microphone gather real-world inputs around you.</p>
+            </div>
+            <div class="step">
+              <span class="step-number">02</span>
+              <h4 data-i18n="how.step2.title">Process</h4>
+              <p data-i18n="how.step2.desc">Cloud AI interprets context, objects, and intent instantly.</p>
+            </div>
+            <div class="step">
+              <span class="step-number">03</span>
+              <h4 data-i18n="how.step3.title">Respond</h4>
+              <p data-i18n="how.step3.desc">Audio feedback guides your next move with precision.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section reveal" id="use-cases">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="use.eyebrow">USE CASES</p>
+            <h3 data-i18n="use.title">Built for real-world impact</h3>
+          </div>
+          <div class="use-case-grid">
+            <article class="use-case">
+              <h4 data-i18n="use.case1.title">Daily life assistance</h4>
+              <p data-i18n="use.case1.desc">Schedule reminders, object recognition, and contextual prompts.</p>
+            </article>
+            <article class="use-case">
+              <h4 data-i18n="use.case2.title">Accessibility</h4>
+              <p data-i18n="use.case2.desc">Enhanced independence for visually impaired users.</p>
+            </article>
+            <article class="use-case">
+              <h4 data-i18n="use.case3.title">Travel & navigation</h4>
+              <p data-i18n="use.case3.desc">Step-by-step guidance with spatial awareness and alerts.</p>
+            </article>
+            <article class="use-case">
+              <h4 data-i18n="use.case4.title">Smart communication</h4>
+              <p data-i18n="use.case4.desc">Translate, transcribe, and connect without lifting a phone.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section reveal" id="stack">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="stack.eyebrow">TECHNOLOGY</p>
+            <h3 data-i18n="stack.title">A wearable-grade intelligence stack</h3>
+            <p data-i18n="stack.desc">
+              Built to deliver low-latency, high-trust assistance in the real world.
+            </p>
+          </div>
+          <div class="stack-grid">
+            <article class="stack-card">
+              <h4 data-i18n="stack.card1.title">Sensor Fusion Core</h4>
+              <p data-i18n="stack.card1.desc">
+                Camera, microphone, and motion data blended for rich situational awareness.
+              </p>
+            </article>
+            <article class="stack-card">
+              <h4 data-i18n="stack.card2.title">Edge + Cloud AI</h4>
+              <p data-i18n="stack.card2.desc">
+                Fast on-device filtering with scalable cloud reasoning.
+              </p>
+            </article>
+            <article class="stack-card">
+              <h4 data-i18n="stack.card3.title">Spatial Feedback Engine</h4>
+              <p data-i18n="stack.card3.desc">
+                Directional audio and haptic cues for discreet guidance.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section reveal" id="readiness">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="readiness.eyebrow">READINESS</p>
+            <h3 data-i18n="readiness.title">Prototype readiness dashboard</h3>
+            <p data-i18n="readiness.desc">
+              Current build status across hardware, AI, and human-centered testing.
+            </p>
+          </div>
+          <div class="readiness-grid">
+            <article class="readiness-card">
+              <div class="readiness-header">
+                <h4 data-i18n="readiness.card1.title">Hardware integration</h4>
+                <span>82%</span>
+              </div>
+              <div class="progress"><span style="width: 82%"></span></div>
+              <p data-i18n="readiness.card1.desc">Camera, mic array, and haptics validated in prototype.</p>
+            </article>
+            <article class="readiness-card">
+              <div class="readiness-header">
+                <h4 data-i18n="readiness.card2.title">AI calibration</h4>
+                <span>76%</span>
+              </div>
+              <div class="progress"><span style="width: 76%"></span></div>
+              <p data-i18n="readiness.card2.desc">Context recognition models tuned for real-world use.</p>
+            </article>
+            <article class="readiness-card">
+              <div class="readiness-header">
+                <h4 data-i18n="readiness.card3.title">User validation</h4>
+                <span>64%</span>
+              </div>
+              <div class="progress"><span style="width: 64%"></span></div>
+              <p data-i18n="readiness.card3.desc">Accessibility feedback and pilot testing in progress.</p>
+            </article>
+            <article class="readiness-card">
+              <div class="readiness-header">
+                <h4 data-i18n="readiness.card4.title">Manufacturing readiness</h4>
+                <span>52%</span>
+              </div>
+              <div class="progress"><span style="width: 52%"></span></div>
+              <p data-i18n="readiness.card4.desc">Supply chain partners and tooling locked.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section reveal" id="roadmap">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="roadmap.eyebrow">ROADMAP</p>
+            <h3 data-i18n="roadmap.title">A clear path to launch</h3>
+            <p data-i18n="roadmap.desc">
+              Focused milestones to move from prototype to pilot and partner deployment.
+            </p>
+          </div>
+          <div class="roadmap-grid">
+            <article class="roadmap-card">
+              <p class="roadmap-date" data-i18n="roadmap.step1.date">April 15, 2026</p>
+              <h4 data-i18n="roadmap.step1.title">Prototype complete</h4>
+              <p data-i18n="roadmap.step1.desc">Core hardware + AI integration finalized.</p>
+            </article>
+            <article class="roadmap-card">
+              <p class="roadmap-date" data-i18n="roadmap.step2.date">Q2 2026</p>
+              <h4 data-i18n="roadmap.step2.title">Pilot programs</h4>
+              <p data-i18n="roadmap.step2.desc">Deploy with accessibility partners and field testers.</p>
+            </article>
+            <article class="roadmap-card">
+              <p class="roadmap-date" data-i18n="roadmap.step3.date">Q3 2026</p>
+              <h4 data-i18n="roadmap.step3.title">Partner integrations</h4>
+              <p data-i18n="roadmap.step3.desc">Secure platform integrations and developer tooling.</p>
+            </article>
+            <article class="roadmap-card">
+              <p class="roadmap-date" data-i18n="roadmap.step4.date">Q4 2026</p>
+              <h4 data-i18n="roadmap.step4.title">Limited release</h4>
+              <p data-i18n="roadmap.step4.desc">Curated rollout for strategic partners.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section reveal" id="partners">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="partners.eyebrow">PARTNERS</p>
+            <h3 data-i18n="partners.title">Built for collaboration</h3>
+            <p data-i18n="partners.desc">
+              We are opening a limited partner cohort to validate real-world impact.
+            </p>
+          </div>
+          <div class="partner-grid">
+            <article class="partner-card">
+              <h4 data-i18n="partners.card1.title">Pilot Programs</h4>
+              <p data-i18n="partners.card1.desc">
+                Co-design use cases and test in real environments.
+              </p>
+            </article>
+            <article class="partner-card">
+              <h4 data-i18n="partners.card2.title">Integration Toolkit</h4>
+              <p data-i18n="partners.card2.desc">
+                Connect to your platforms with secure data flows.
+              </p>
+            </article>
+            <article class="partner-card">
+              <h4 data-i18n="partners.card3.title">Enterprise Readiness</h4>
+              <p data-i18n="partners.card3.desc">
+                Governance, compliance, and support baked in.
+              </p>
+            </article>
+          </div>
+          <div class="partner-cta">
+            <a class="btn primary" href="#prototype" data-i18n="partners.cta">Request Partner Access</a>
+          </div>
+        </section>
+
+        <section class="section prototype reveal" id="prototype">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="proto.eyebrow">PROTOTYPE</p>
+            <h3 data-i18n="proto.title">Currently in development</h3>
+            <p class="prototype-deadline" data-i18n="proto.deadline">
+              The Smart Cap prototype is done by 15th of April.
+            </p>
+            <p data-i18n="proto.desc">
+              Target milestone: April 15, 2026. We are finalizing hardware integration and AI calibration.
+            </p>
+          </div>
+          <div class="prototype-grid">
+            <div class="prototype-card">
+              <h4 data-i18n="proto.card.title">Coming Soon</h4>
+              <p data-i18n="proto.card.desc">
+                A premium wearable designed for investors, partners, and early adopters.
+                Join us as we redefine intelligent fashion.
+              </p>
+            </div>
+            <div class="countdown" data-target="2026-04-15">
+              <div class="countdown-header">
+                <span data-i18n="proto.countdown.title">Countdown to April 15, 2026</span>
+              </div>
+              <div class="countdown-grid">
+                <div class="time-box">
+                  <span id="days">00</span>
+                  <small data-i18n="proto.countdown.days">Days</small>
+                </div>
+                <div class="time-box">
+                  <span id="hours">00</span>
+                  <small data-i18n="proto.countdown.hours">Hours</small>
+                </div>
+                <div class="time-box">
+                  <span id="minutes">00</span>
+                  <small data-i18n="proto.countdown.minutes">Minutes</small>
+                </div>
+                <div class="time-box">
+                  <span id="seconds">00</span>
+                  <small data-i18n="proto.countdown.seconds">Seconds</small>
+                </div>
+              </div>
+              <p class="countdown-note" data-i18n="proto.countdown.note">Prototype completion milestone.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section vision reveal" id="vision">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="vision.eyebrow">VISION</p>
+            <h3 data-i18n="vision.title">Future-forward by design</h3>
+          </div>
+          <div class="vision-content">
+            <p class="vision-quote" data-i18n="vision.quote">
+              We aim to merge AI and fashion into one seamless experience.
+            </p>
+            <p data-i18n="vision.desc">
+              RΔS Smartcap is engineered for a world where intelligence is elegant, unobtrusive, and
+              always available. Our focus is on future-ready innovation, simplicity, and human-first
+              design that feels premium from the first touch.
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div>
+          <strong>RΔS Smartcap</strong>
+          <p data-i18n="footer.tagline">Wearable intelligence for a smarter tomorrow.</p>
+        </div>
+        <button class="btn primary" type="button" data-i18n="footer.cta">Partner With Us</button>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
