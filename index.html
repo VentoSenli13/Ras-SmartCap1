@@ -14,12 +14,9 @@
   </head>
   <body>
     <div class="bg-video" aria-hidden="true">
-      <video autoplay muted loop playsinline preload="auto" poster="assets/tech-poster.jpg">
-        <source src="assets/tech-loop.mp4" type="video/mp4" />
-        <source src="assets/tech-loop.webm" type="video/webm" />
-      </video>
       <div class="video-overlay"></div>
       <div class="ambient-grid"></div>
+      <div class="ambient-glow"></div>
     </div>
 
     <div class="page">
@@ -33,8 +30,11 @@
           <a href="#readiness" data-i18n="nav.readiness">Readiness</a>
           <a href="#roadmap" data-i18n="nav.roadmap">Roadmap</a>
           <a href="#partners" data-i18n="nav.partners">Partners</a>
+          <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+          <a href="#origin" data-i18n="nav.origin">Origin</a>
           <a href="#prototype" data-i18n="nav.prototype">Prototype</a>
           <a href="#vision" data-i18n="nav.vision">Vision</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
         </nav>
         <div class="lang-switcher" role="group" aria-label="Language selection">
           <button class="lang active" data-lang="en">English</button>
@@ -231,6 +231,12 @@
               <p data-i18n="how.step3.desc">Audio feedback guides your next move with precision.</p>
             </div>
           </div>
+          <div class="voice-callout">
+            <h4 data-i18n="how.voice.title">Say "Hey Ras"</h4>
+            <p data-i18n="how.voice.desc">
+              The RΔS AI starts listening instantly and answers your questions with calm, clear guidance.
+            </p>
+          </div>
         </section>
 
         <section class="section reveal" id="use-cases">
@@ -397,15 +403,62 @@
           </div>
         </section>
 
+        <section class="section reveal" id="pricing">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="pricing.eyebrow">PRICING</p>
+            <h3 data-i18n="pricing.title">Early access pricing</h3>
+            <p data-i18n="pricing.desc">
+              Limited founder pricing for the first 10 customers.
+            </p>
+          </div>
+          <div class="pricing-grid">
+            <article class="pricing-card highlight">
+              <div class="pricing-tag" data-i18n="pricing.tag">Founder Offer</div>
+              <h4 data-i18n="pricing.card1.title">First 10 sales</h4>
+              <p class="pricing-price">$190</p>
+              <ul class="pricing-list">
+                <li data-i18n="pricing.card1.item1">Prototype priority access</li>
+                <li data-i18n="pricing.card1.item2">Direct feedback channel</li>
+                <li data-i18n="pricing.card1.item3">Early partner updates</li>
+              </ul>
+            </article>
+            <article class="pricing-card">
+              <div class="pricing-tag muted" data-i18n="pricing.tag2">Standard</div>
+              <h4 data-i18n="pricing.card2.title">Selling price</h4>
+              <p class="pricing-price">$220</p>
+              <ul class="pricing-list">
+                <li data-i18n="pricing.card2.item1">Production-ready unit</li>
+                <li data-i18n="pricing.card2.item2">Software updates</li>
+                <li data-i18n="pricing.card2.item3">Partner onboarding</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section reveal" id="origin">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="origin.eyebrow">ORIGIN</p>
+            <h3 data-i18n="origin.title">How did this project created</h3>
+          </div>
+          <div class="origin-card">
+            <p class="origin-name" data-i18n="origin.name">Ruzgar</p>
+            <p class="origin-quote" data-i18n="origin.quote">
+              In that time, my wish was to buy a smart glass. Then I said to myself why don't I make a
+              SmartCap. I was always thinking to earn money, then I started to do this project.
+            </p>
+            <p class="origin-foot" data-i18n="origin.foot">And then this project started...</p>
+          </div>
+        </section>
+
         <section class="section prototype reveal" id="prototype">
           <div class="section-header">
             <p class="eyebrow" data-i18n="proto.eyebrow">PROTOTYPE</p>
             <h3 data-i18n="proto.title">Currently in development</h3>
             <p class="prototype-deadline" data-i18n="proto.deadline">
-              The Smart Cap prototype is done by 15th of April.
+              The Smart Cap prototype is done by 18th of April.
             </p>
             <p data-i18n="proto.desc">
-              Target milestone: April 15, 2026. We are finalizing hardware integration and AI calibration.
+              Target milestone: April 18, 2026. We are finalizing hardware integration and AI calibration.
             </p>
           </div>
           <div class="prototype-grid">
@@ -416,9 +469,9 @@
                 Join us as we redefine intelligent fashion.
               </p>
             </div>
-            <div class="countdown" data-target="2026-04-15">
+            <div class="countdown" data-target="2026-04-18">
               <div class="countdown-header">
-                <span data-i18n="proto.countdown.title">Countdown to April 15, 2026</span>
+                <span data-i18n="proto.countdown.title">Countdown to April 18, 2026</span>
               </div>
               <div class="countdown-grid">
                 <div class="time-box">
@@ -459,12 +512,53 @@
             </p>
           </div>
         </section>
+
+        <section class="section reveal" id="contact">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="contact.eyebrow">CONTACT</p>
+            <h3 data-i18n="contact.title">Let’s build the future together</h3>
+            <p data-i18n="contact.desc">
+              Reach out for partnerships, pilots, or investor conversations.
+            </p>
+          </div>
+          <div class="contact-card">
+            <div>
+              <p class="contact-label" data-i18n="contact.emailLabel">Email</p>
+              <p class="contact-email">info.rastechno@gmail.com</p>
+            </div>
+            <a class="btn primary" href="mailto:info.rastechno@gmail.com" data-i18n="contact.cta">
+              Contact Us
+            </a>
+          </div>
+        </section>
       </main>
 
       <footer class="site-footer">
-        <div>
+        <div class="footer-left">
           <strong>RΔS Smartcap</strong>
           <p data-i18n="footer.tagline">Wearable intelligence for a smarter tomorrow.</p>
+          <div class="footer-social">
+            <a
+              class="social-link"
+              href="https://www.instagram.com/raswearabletech/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Instagram"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="17.5" cy="6.5" r="1" />
+              </svg>
+              <span>@raswearabletech</span>
+            </a>
+          </div>
+          <div class="footer-audio">
+            <span data-i18n="footer.audio">Theme</span>
+            <audio controls preload="none">
+              <source src="assets/ras-theme.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
         </div>
         <button class="btn primary" type="button" data-i18n="footer.cta">Partner With Us</button>
       </footer>
